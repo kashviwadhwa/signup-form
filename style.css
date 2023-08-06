@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(banner-3-1-1.png);
+    background-position: center;
+    background-size: cover;
+    padding: 50px , 50px , 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.form{
+    width: 100%;
+    max-width: 450px;
+    border-radius: 7px;
+    background-color: #fff;
+    padding: 20px;
+   
+}
+h1{
+    font-size: 33px;
+    font-weight: bold;
+    color: purple;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.feild{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    max-height: 60px;
+    
+    overflow: hidden;
+}
+.feild input, .feild button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-weight: 300;
+    font-size: 20px;
+    border-radius: 8px;
+
+}
+.feild input{
+    border: 1px solid #cacaca;
+    background: #eaeaea;
+    
+}
+input{
+    background: transparent;
+}
+.button{
+    border-radius: 30px;
+    background-color: blue;
+    color: #fff;
+    height: 44px;
+    cursor: pointer;
+    outline: 0;
+}
+.disable{
+    background: #eaeaea;
+    color: #555;
+    
+}
